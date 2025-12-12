@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* MAIN WRAPPER */
+.wrapper {
+  max-width: 95%;
+  margin: auto;
+  padding: 20px 10px;
+}
+
+body {
+  transition: all 0.2s ease-in;
+}
+/* ------------------------------
+    LIGHT & DARK THEME COLORS
+-------------------------------*/
+.light {
+  background-color: white;
+  color: black;
+}
+
+.dark {
+  background-color: #1a1a1a;
+  color: white;
+}
+
+.light .search-box,
+.light .region-dropdown,
+.light .country-card {
+  background: #fff;
+  color: #000;
+  border: 1px solid #ccc;
+}
+
+.dark .search-box,
+.dark .region-dropdown,
+.dark .country-card {
+  background: #2b2b2b;
+  color: #fff;
+  border: 1px solid #444;
+}
+
+/* heading */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.dark-toggle {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  cursor: pointer;
+  font-size: 1.2rem;
+}
+
+.logo-title {
+  font-size: 2rem;
+  font-weight: 900;
+}
+
+/* ------------------------------
+      SEARCH BOX
+-------------------------------*/
+.search-wrapper {
+  margin-top: 50px;
+  display:  flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.search-box {
+  display: flex;
+  align-items: center;
+  width: 260px;
+  padding: 10px 12px;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.light .search-icon { color: #666; }
+.dark .search-icon { color: #ccc; }
+
+.light-icon {
+  color: #fbc02d;  
+  cursor: pointer;
+}
+
+.search-input {
+  width: 100%;
+  padding-left: 20px;
+  border: none;
+  outline: none;
+  font-size: 18px;
+  background: transparent;
+  color: inherit;
+}
+
+/* ------------------------------
+      DROPDOWN
+-------------------------------*/
+.region-dropdown {
+  padding: 8px 10px;
+  border-radius: 8px;
+  font-size: 15px;
+  cursor: pointer;
+  outline: none;
+}
+
+.dark .region-dropdown option {
+  background-color: #2b2b2b;
+  color: white;
+}
+
+.light .region-dropdown option {
+  background-color: white;
+  color: black;
+}
+
+/* ------------------------------
+      COUNTRY CARDS
+-------------------------------*/
+.card-wrapper {
+  margin-top: 50px;
+  gap: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.country-card {
+  width: 260px;
+  border-radius: 12px;
+  overflow: hidden;
+  transition: transform 0.2s ease;
+  cursor: pointer;
+}
+
+.country-card:hover {
+  transform: scale(1.05);
+}
+
+/* Flag image */
+.country-flag {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+/* Text Area */
+.country-info {
+  padding: 15px;
+}
+
+.country-name {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.country-info p {
+  margin: 4px 0;
+  font-size: 15px;
+}

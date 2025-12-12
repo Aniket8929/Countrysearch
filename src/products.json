@@ -1,0 +1,340 @@
+[
+  {
+    "flag": "https://flagcdn.com/w320/us.png",
+    "name": "United States",
+    "population": "339,996,564",
+    "region": "Americas",
+    "capital": "Washington, D.C."
+  },
+  {
+    "flag": "https://flagcdn.com/w320/in.png",
+    "name": "India",
+    "population": "1,428,627,663",
+    "region": "Asia",
+    "capital": "New Delhi"
+  },
+  {
+    "flag": "https://flagcdn.com/w320/cn.png",
+    "name": "China",
+    "population": "1,425,671,352",
+    "region": "Asia",
+    "capital": "Beijing"
+  },
+  {
+    "flag": "https://flagcdn.com/w320/jp.png",
+    "name": "Japan",
+    "population": "123,294,513",
+    "region": "Asia",
+    "capital": "Tokyo"
+  },
+  {
+    "flag": "https://flagcdn.com/w320/de.png",
+    "name": "Germany",
+    "population": "83,294,633",
+    "region": "Europe",
+    "capital": "Berlin"
+  },
+  {
+    "flag": "https://flagcdn.com/w320/gb.png",
+    "name": "United Kingdom",
+    "population": "67,736,802",
+    "region": "Europe",
+    "capital": "London"
+  },
+  {
+    "flag": "https://flagcdn.com/w320/fr.png",
+    "name": "France",
+    "population": "65,633,528",
+    "region": "Europe",
+    "capital": "Paris"
+  },
+  {
+    "flag": "https://flagcdn.com/w320/it.png",
+    "name": "Italy",
+    "population": "58,870,762",
+    "region": "Europe",
+    "capital": "Rome"
+  },
+  {
+    "flag": "https://flagcdn.com/w320/ru.png",
+    "name": "Russia",
+    "population": "144,444,359",
+    "region": "Europe",
+    "capital": "Moscow"
+  },
+  {
+    "flag": "https://flagcdn.com/w320/br.png",
+    "name": "Brazil",
+    "population": "216,422,446",
+    "region": "Americas",
+    "capital": "Brasília"
+  },
+  {
+    "flag": "https://flagcdn.com/w320/ca.png",
+    "name": "Canada",
+    "population": "38,781,291",
+    "region": "Americas",
+    "capital": "Ottawa"
+  },
+  {
+    "flag": "https://flagcdn.com/w320/au.png",
+    "name": "Australia",
+    "population": "26,439,111",
+    "region": "Oceania",
+    "capital": "Canberra"
+  },
+  {
+    "flag": "https://flagcdn.com/w320/nz.png",
+    "name": "New Zealand",
+    "population": "5,205,000",
+    "region": "Oceania",
+    "capital": "Wellington"
+  },
+  {
+    "flag": "https://flagcdn.com/w320/za.png",
+    "name": "South Africa",
+    "population": "60,414,495",
+    "region": "Africa",
+    "capital": "Pretoria"
+  },
+  {
+    "flag": "https://flagcdn.com/w320/eg.png",
+    "name": "Egypt",
+    "population": "112,716,598",
+    "region": "Africa",
+    "capital": "Cairo"
+  },
+  {
+    "flag": "https://flagcdn.com/w320/ng.png",
+    "name": "Nigeria",
+    "population": "223,804,632",
+    "region": "Africa",
+    "capital": "Abuja"
+  },
+  {
+    "flag": "https://flagcdn.com/w320/ar.png",
+    "name": "Argentina",
+    "population": "45,773,884",
+    "region": "Americas",
+    "capital": "Buenos Aires"
+  },
+  {
+    "flag": "https://flagcdn.com/w320/mx.png",
+    "name": "Mexico",
+    "population": "128,455,567",
+    "region": "Americas",
+    "capital": "Mexico City"
+  },
+  {
+    "flag": "https://flagcdn.com/w320/kr.png",
+    "name": "South Korea",
+    "population": "51,784,059",
+    "region": "Asia",
+    "capital": "Seoul"
+  },
+  {
+    "flag": "https://flagcdn.com/w320/id.png",
+    "name": "Indonesia",
+    "population": "277,534,122",
+    "region": "Asia",
+    "capital": "Jakarta"
+  },
+  {
+    "flag": "https://flagcdn.com/w320/sa.png",
+    "name": "Saudi Arabia",
+    "population": "36,947,025",
+    "region": "Asia",
+    "capital": "Riyadh"
+  },
+  {
+    "flag": "https://flagcdn.com/w320/ae.png",
+    "name": "United Arab Emirates",
+    "population": "9,516,871",
+    "region": "Asia",
+    "capital": "Abu Dhabi"
+  },
+  {
+    "flag": "https://flagcdn.com/w320/iq.png",
+    "name": "Iraq",
+    "population": "45,504,560",
+    "region": "Asia",
+    "capital": "Baghdad"
+  },
+  {
+    "flag": "https://flagcdn.com/w320/ir.png",
+    "name": "Iran",
+    "population": "89,172,767",
+    "region": "Asia",
+    "capital": "Tehran"
+  },
+  {
+    "flag": "https://flagcdn.com/w320/tr.png",
+    "name": "Turkey",
+    "population": "85,372,386",
+    "region": "Asia",
+    "capital": "Ankara"
+  },
+  {
+    "flag": "https://flagcdn.com/w320/es.png",
+    "name": "Spain",
+    "population": "47,519,628",
+    "region": "Europe",
+    "capital": "Madrid"
+  },
+  {
+    "flag": "https://flagcdn.com/w320/se.png",
+    "name": "Sweden",
+    "population": "10,452,326",
+    "region": "Europe",
+    "capital": "Stockholm"
+  },
+  {
+    "flag": "https://flagcdn.com/w320/no.png",
+    "name": "Norway",
+    "population": "5,474,360",
+    "region": "Europe",
+    "capital": "Oslo"
+  },
+  {
+    "flag": "https://flagcdn.com/w320/dk.png",
+    "name": "Denmark",
+    "population": "5,873,420",
+    "region": "Europe",
+    "capital": "Copenhagen"
+  },
+  {
+    "flag": "https://flagcdn.com/w320/fi.png",
+    "name": "Finland",
+    "population": "5,548,241",
+    "region": "Europe",
+    "capital": "Helsinki"
+  },
+  {
+    "flag": "https://flagcdn.com/w320/pl.png",
+    "name": "Poland",
+    "population": "41,026,067",
+    "region": "Europe",
+    "capital": "Warsaw"
+  },
+  {
+    "flag": "https://flagcdn.com/w320/ua.png",
+    "name": "Ukraine",
+    "population": "36,744,634",
+    "region": "Europe",
+    "capital": "Kyiv"
+  },
+  {
+    "flag": "https://flagcdn.com/w320/pt.png",
+    "name": "Portugal",
+    "population": "10,467,366",
+    "region": "Europe",
+    "capital": "Lisbon"
+  },
+  {
+    "flag": "https://flagcdn.com/w320/ch.png",
+    "name": "Switzerland",
+    "population": "8,796,457",
+    "region": "Europe",
+    "capital": "Bern"
+  },
+  {
+    "flag": "https://flagcdn.com/w320/nl.png",
+    "name": "Netherlands",
+    "population": "17,811,247",
+    "region": "Europe",
+    "capital": "Amsterdam"
+  },
+  {
+    "flag": "https://flagcdn.com/w320/be.png",
+    "name": "Belgium",
+    "population": "11,632,326",
+    "region": "Europe",
+    "capital": "Brussels"
+  },
+  {
+    "flag": "https://flagcdn.com/w320/at.png",
+    "name": "Austria",
+    "population": "9,067,343",
+    "region": "Europe",
+    "capital": "Vienna"
+  },
+  {
+    "flag": "https://flagcdn.com/w320/ie.png",
+    "name": "Ireland",
+    "population": "5,056,935",
+    "region": "Europe",
+    "capital": "Dublin"
+  },
+  {
+    "flag": "https://flagcdn.com/w320/sg.png",
+    "name": "Singapore",
+    "population": "5,917,463",
+    "region": "Asia",
+    "capital": "Singapore"
+  },
+  {
+    "flag": "https://flagcdn.com/w320/my.png",
+    "name": "Malaysia",
+    "population": "34,308,525",
+    "region": "Asia",
+    "capital": "Kuala Lumpur"
+  },
+  {
+    "flag": "https://flagcdn.com/w320/th.png",
+    "name": "Thailand",
+    "population": "71,801,279",
+    "region": "Asia",
+    "capital": "Bangkok"
+  },
+  {
+    "flag": "https://flagcdn.com/w320/vn.png",
+    "name": "Vietnam",
+    "population": "98,858,950",
+    "region": "Asia",
+    "capital": "Hanoi"
+  },
+  {
+    "flag": "https://flagcdn.com/w320/ph.png",
+    "name": "Philippines",
+    "population": "117,337,368",
+    "region": "Asia",
+    "capital": "Manila"
+  },
+  {
+    "flag": "https://flagcdn.com/w320/il.png",
+    "name": "Israel",
+    "population": "9,174,000",
+    "region": "Asia",
+    "capital": "Jerusalem"
+  },
+  {
+    "flag": "https://flagcdn.com/w320/co.png",
+    "name": "Colombia",
+    "population": "52,085,168",
+    "region": "Americas",
+    "capital": "Bogotá"
+  },
+  {
+    "flag": "https://flagcdn.com/w320/cl.png",
+    "name": "Chile",
+    "population": "19,629,794",
+    "region": "Americas",
+    "capital": "Santiago"
+  },
+  {
+    "flag": "https://flagcdn.com/w320/ke.png",
+    "name": "Kenya",
+    "population": "55,100,586",
+    "region": "Africa",
+    "capital": "Nairobi"
+  },
+  {
+    "flag": "https://flagcdn.com/w320/et.png",
+    "name": "Ethiopia",
+    "population": "126,527,060",
+    "region": "Africa",
+    "capital": "Addis Ababa"
+  }
+]
+
+ 
