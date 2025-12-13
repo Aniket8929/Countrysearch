@@ -1,0 +1,15 @@
+✅ Industry approach (Feature + Responsibility based)
+
+Companies structure projects by responsibility:
+
+Components → UI only
+
+Pages → Screens
+
+Hooks → Logic
+
+Services → API calls
+
+Utils → Helper functions
+
+Styles → CSS files
