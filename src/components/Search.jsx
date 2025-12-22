@@ -1,11 +1,17 @@
+import { useContext } from "react";
 import { FaSearch } from "react-icons/fa";
+import { Contextprovider } from "../context/context";
 
-const Search = ({ query, setquery }) => {
+const Search = () => {
+  const { setquery, query, searchHandles } = useContext(Contextprovider)
   const Searchquery = (e) => {
     setquery(e.target.value)
   }
   return (
-    <div className="search-box">
+    <form className="search-box" onSubmit={(e) => {
+      e.preventDefault()
+      searchHandles(query)
+    }}>
       <FaSearch className="search-icon" />
       <input
         type="text"
@@ -14,7 +20,7 @@ const Search = ({ query, setquery }) => {
         value={query}
         onChange={Searchquery}
       />
-    </div>
+    </form>
   )
 }
 
