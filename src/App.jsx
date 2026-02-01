@@ -1,12 +1,14 @@
 import { Routes, Route } from "react-router-dom";
-import Home from "./pages/Home"
 import CountryDetails from "./pages/CountryDetails"
+import HomeLayout from "./pages/HomeLayout";
+import ErrorPage from "./pages/Errorpage";
 function App() {
   return (
     <>
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/" element={<HomeLayout />} />
         <Route path="/detail/:id" element={<CountryDetails />} />
+        <Route path="*" element={<ErrorPage />} />
       </Routes>
     </>
   )

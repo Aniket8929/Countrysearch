@@ -1,27 +1,24 @@
-import { useContext } from "react";
-import { useState } from "react";
-import { Contextprovider } from "../context/context";
+import { useAppContext } from "../context/AppContext";
+
+const regions = ["Africa", "Americas", "Asia", "Europe", "Oceania"];
 
 const Dropdown = () => {
-  const [selected, setSelected] = useState("");
-  const { dropdownHandles } = useContext(Contextprovider)
-
-  const selectedquery = (e) => {
-    setSelected(e.target.value);
-    dropdownHandles(e.target.value)
-  }
-
+  const { filterByRegion } = useAppContext();
 
   return (
-    <select value={selected} className="region-dropdown" onChange={selectedquery} >
-      <option value="">Select Region</option>
-      <option value="asia">Asia</option>
-      <option value="europe">Europe</option>
-      <option value="africa">Africa</option>
-      <option value="america">America</option>
-      <option value="Oceania">Oceania</option>
+    <select
+      onChange={(e) => filterByRegion(e.target.value)}
+      className="px-4 py-2 rounded-lg bg-white dark:bg-gray-800 text-gray-800 dark:text-white shadow-sm hover:shadow-md transition-shadow duration-200"
+      aria-label="Filter by region"
+    >
+      <option value="">Filter by Region</option>
+      {regions.map((region) => (
+        <option key={region} value={region}>
+          {region}
+        </option>
+      ))}
     </select>
-  )
-}
+  );
+};
 
 export default Dropdown;

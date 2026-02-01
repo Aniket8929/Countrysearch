@@ -1,9 +1,10 @@
 import Card from "./Card";
-const CountryList = ({ data }) => {
+
+const CountryList = ({ data = [] }) => {
   return (
     <>
-      {data?.map((item, id) => (
-        <Card key={id} data={item}/>
+      {data.map((country) => (
+        <Card key={country.name.common} data={country} />
       ))}
     </>
   );
